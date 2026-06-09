@@ -45,7 +45,7 @@ const locations = {
 // For absolute crispness, resize your actual photos to exactly 76x76 pixels in your folder.
 const people = [
     {
-        name: "Memdus",
+        name: "Matteo",
         avatar: "images/matteo.jpeg", 
         path: ["U6"],
         index: 0,
