@@ -55,8 +55,8 @@ body {
 
 /* ===== GREY RE-CALIBRATED TARGET DOTS (+20% SIZE) ===== */
 .experimental-grey-letter-dot {
-    width: 44px;  
-    height: 44px; 
+    width: 40px;  
+    height: 40px; 
     background-color: #91a3ce; 
     border: 2px solid #ffffff;  
     border-radius: 50%;
