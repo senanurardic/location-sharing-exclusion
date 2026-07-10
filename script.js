@@ -1,14 +1,14 @@
 // ============================
-// CALIBRATED MAP CONFIGURATION (ZOOM: 14.2 & CENTER REALIGNED)
+// CALIBRATED MAP CONFIGURATION (ZOOM: 13.9 & CENTER REALIGNED)
 // ============================
 const map = new maplibregl.Map({
     container: 'map',
     style: 'https://tiles.openfreemap.org/styles/liberty',
-    // Kadrajın üçgen köşelerini ortalaması için merkez koordinat rasyonel olarak optimize edildi
+    // Optimized center coordinates for averaging the triangle corners of the scene
     center: [9.2103, 45.4815], 
-    zoom: 14.2,                
-    minZoom: 14.2,             
-    maxZoom: 14.2,             
+    zoom: 13.9,                
+    minZoom: 13.9,             
+    maxZoom: 13.9,             
     
     // EXPERIMENTAL CONTROLS: FIXED VIEWPORT MATRIX
     dragPan: false,            
