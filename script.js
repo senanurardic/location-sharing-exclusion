@@ -1,14 +1,14 @@
 // ============================
-// CALIBRATED MAP CONFIGURATION (ZOOM: 13.9 & CENTER REALIGNED)
+// CALIBRATED MAP CONFIGURATION (ZOOM: 13.6 & CENTER REALIGNED)
 // ============================
 const map = new maplibregl.Map({
     container: 'map',
     style: 'https://tiles.openfreemap.org/styles/liberty',
     // Optimized center coordinates for averaging the triangle corners of the scene
     center: [9.2103, 45.4815], 
-    zoom: 13.9,                
-    minZoom: 13.9,             
-    maxZoom: 13.9,             
+    zoom: 13.6,                
+    minZoom: 13.6,             
+    maxZoom: 13.6,             
     
     // EXPERIMENTAL CONTROLS: FIXED VIEWPORT MATRIX
     dragPan: false,            
@@ -93,7 +93,7 @@ initMarkers();
 // ============================
 // TIMED LINEAR INTERPOLATION ENGINE
 // ============================
-const DELAY_DURATION = 5 * 1000;       // 5 seconds stable waiting
+const DELAY_DURATION = 5 * 1000;       // 5 seconds stable
 const MOVE_DURATION = 25 * 1000;      // 25 seconds linear movement
 let startTime = null;
 
